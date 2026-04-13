@@ -1,0 +1,23 @@
+{
+  "name": "roostjs",
+  "version": "1.3.0",
+  "description": "json to html parser",
+  "main": "./roost.cjs",
+  "module": "./roost.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WojtekCodesToday/roostjs.git"
+  },
+  "exports":{
+    ".":{
+      "import":"./roost.mjs",
+      "require":"./roost.cjs"
+    }
+  },
+  "author": "wojtekgame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WojtekCodesToday/roostjs/issues"
+  },
+  "homepage": "https://github.com/WojtekCodesToday/roostjs#readme"
+}
