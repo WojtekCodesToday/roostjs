@@ -1,0 +1,3 @@
+dist/** linguist-detectable=false
+test/** linguist-detectable=false
+pkg_cmds/** linguist-detectable=false
