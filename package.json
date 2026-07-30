@@ -1,0 +1,48 @@
+{
+  "name": "roostjs",
+  "version": "2.1.0",
+  "description": "json to html parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WojtekCodesToday/roostjs.git"
+  },
+  "main": "./dist/roost.cjs",
+  "module": "./dist/roost.mjs",
+  "types": "./dist/roost.d.ts",
+  "browser": "./dist/roost.iife.js",
+  "jsdelivr": "./dist/roost.iife.js",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./dist/roost.d.mts",
+        "require": "./dist/roost.d.cts"
+      },
+      "import": "./dist/roost.mjs",
+      "require": "./dist/roost.cjs",
+      "browser": "./dist/roost.iife.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "test": "node pkg_cmds/runner.js tests.sh"
+  },
+  "author": "wojtekgame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WojtekCodesToday/roostjs/issues"
+  },
+  "homepage": "https://github.com/WojtekCodesToday/roostjs#readme",
+  "devDependencies": {
+    "@babel/cli": "^8.0.4",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-react": "^8.0.1",
+    "tsdown": "^0.22.14",
+    "typescript": "^7.0.2"
+  }
+}

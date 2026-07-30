@@ -1,0 +1,22 @@
+//#region src/jhtml.d.ts
+interface JHTMLNode {
+  child?: string | JHTML;
+  closed?: boolean | string;
+  [key: string]: any;
+}
+interface JHTML {
+  [element: string]: JHTMLNode;
+}
+//#endregion
+//#region src/roost_i.d.ts
+interface Roost {
+  convert: (jhtml?: JHTML) => string;
+  convertJSX: (tag: string | Function, props?: any, ...children: any[]) => JHTML;
+  extensions: Record<string, any>;
+}
+//#endregion
+//#region src/roost.d.ts
+declare const roost: Roost;
+//#endregion
+export { JHTML, JHTMLNode, Roost, roost as default };
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicm9vc3QuZC5jdHMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiLi4vc3JjL2podG1sLmQudHMiLCIuLi9zcmMvcm9vc3RfaS5kLnRzIiwiLi4vc3JjL3Jvb3N0LmQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGludGVyZmFjZSBKSFRNTE5vZGUge1xuICAgIGNoaWxkPzogc3RyaW5nIHwgSkhUTUw7XG4gICAgY2xvc2VkPzogYm9vbGVhbiB8IHN0cmluZztcbiAgICBba2V5OiBzdHJpbmddOiBhbnk7XG59XG5leHBvcnQgaW50ZXJmYWNlIEpIVE1MIHtcbiAgICBbZWxlbWVudDogc3RyaW5nXTogSkhUTUxOb2RlO1xufVxuIiwiaW1wb3J0IHR5cGUgeyBKSFRNTCB9IGZyb20gXCIuL2podG1sXCI7XG5leHBvcnQgKiBmcm9tIFwiLi9qaHRtbFwiO1xuZXhwb3J0IGludGVyZmFjZSBSb29zdCB7XG4gICAgY29udmVydDogKGpodG1sPzogSkhUTUwpID0+IHN0cmluZztcbiAgICBjb252ZXJ0SlNYOiAodGFnOiBzdHJpbmcgfCBGdW5jdGlvbiwgcHJvcHM/OiBhbnksIC4uLmNoaWxkcmVuOiBhbnlbXSkgPT4gSkhUTUw7XG4gICAgZXh0ZW5zaW9uczogUmVjb3JkPHN0cmluZywgYW55Pjtcbn1cbiIsImltcG9ydCB0eXBlIHsgUm9vc3QgfSBmcm9tIFwiLi9yb29zdF9pXCI7XG5leHBvcnQgKiBmcm9tIFwiLi9yb29zdF9pXCI7XG5kZWNsYXJlIGNvbnN0IHJvb3N0OiBSb29zdDtcbmV4cG9ydCBkZWZhdWx0IHJvb3N0O1xuIl0sIm1hcHBpbmdzIjoiO0FBQUEsSUFBVyxDQUFDLGFBQWE7Q0FBQztPQUFTLENBQUMsS0FBSztDQUFHO0VBQUM7RUFBSTtFQUFJO0VBQUk7Q0FBRTtBQUFDO0FBQzVELElBQVcsQ0FBQyxTQUFTO0NBQUM7T0FBUyxDQUFDLFNBQVM7Q0FBRyxDQUFDLElBQUksRUFBRTtBQUFDOzs7O0FDQ3BELElBQVcsQ0FBQyxTQUFTO0NBQUM7T0FBUztFQUFDO0VBQU87RUFBVTtFQUFPO0NBQU07Q0FBRztFQUFDO0VBQUk7RUFBSTtFQUFJO0VBQUk7RUFBSTtFQUFJO0VBQUk7RUFBSTtFQUFJO0VBQUk7Q0FBRTtBQUFDOzs7O0FDQTdHLElBQUksQ0FBQyxTQUFTO0NBQUM7T0FBUyxDQUFDLEtBQUs7Q0FBRyxDQUFDLEVBQUU7QUFBQyJ9
