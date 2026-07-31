@@ -33,7 +33,7 @@
     "test": "node pkg_cmds/runner.js tests.sh"
   },
   "author": "wojtekgame",
-  "license": "MIT",
+  "license": "CCO-1.0",
   "bugs": {
     "url": "https://github.com/WojtekCodesToday/roostjs/issues"
   },
