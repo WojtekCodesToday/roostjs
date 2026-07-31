@@ -1,11 +1,3 @@
-## ⚠️ `if looking for @roostjs/, this is not the place!`
-i just only now found about it! (31.07.2026)
-- https://github.com/birdcar/roost
-- https://npmjs.com/@roostjs/cli
-- https://roost.birdcar.dev
-
-<hr>
-
 <h1 align=center> roostjs</h1>
 
 <p align=center>json to html parser</p>
@@ -112,3 +104,11 @@ console.log(roost.convert(
 // after a babel transpile of the JSX file
 console.log(roost.convert(roost.convertJSX("h1", null, "test 2!", roost.convertJSX("br", null), "test 1!")));
 ```
+
+<hr>
+
+## ⚠️ `if looking for @roostjs/, this is not the place!`
+i just only now found about it! (31.07.2026)
+- https://github.com/birdcar/roost
+- https://npmjs.com/@roostjs/cli
+- https://roost.birdcar.dev
