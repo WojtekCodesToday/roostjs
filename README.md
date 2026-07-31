@@ -1,7 +1,14 @@
+## ⚠️ `if looking for @roostjs/, this is not the place!`
+i just only now found about it! (31.07.2026)
+- https://github.com/birdcar/roost
+- https://npmjs.com/@roostjs/cli
+- https://roost.birdcar.dev
+
+<hr>
+
 <h1 align=center> roostjs</h1>
 
 <p align=center>json to html parser</p>
-
 
 roost can run server side or client side, it won't need extra dependencies either...
 
